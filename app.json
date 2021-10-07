@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "icon": "./assets/logo.png",
+    "name": "appMedical",
+    "slug": "appMedical",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./local/path/to/myNotificationIcon.png",
+          "color": "#ffffff",
+          "sounds": [
+            "./local/path/to/mySound.wav",
+            "./local/path/to/myOtherSound.wav"
+          ],
+          "mode": "production"
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.hungduc1.appMedical"
+    }
+  },
+  "name": "appMedical"
+}
